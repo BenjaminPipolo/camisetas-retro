@@ -46,28 +46,6 @@ h2{
     opacity: 1;
 }
 
-.fiorentina{
-    grid-column: 2/3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    display: inline-block;
-    img{
-        width: 21.875rem;
-        height: 21.875rem;
-    }
-    p{
-        font-family: "montserrat";
-        font-weight: bold;
-    }
-}
-
-.fiorentina:hover .hover-image {
-    opacity: 1;
-}
-
 .boca{
     grid-column: 3/4;
     display: flex;
@@ -93,11 +71,12 @@ h2{
 .hover-image {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
     opacity: 0;
     transition: opacity 0.3s ease;
     width: 21.875rem;
     height: 21.875rem;
+    transform: translateX(-50%);
 }
 
 .contenedor-boton{
