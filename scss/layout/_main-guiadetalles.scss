@@ -1,0 +1,51 @@
+.main-guiadetalles{
+    background-image: linear-gradient(#D2E9E9, #F8F6F4) ;
+}
+
+.intro-guiadetalles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    h2{
+        font-family: "montserrat";
+        font-size: 3.125rem;
+    }
+    p{
+        font-family: "montserrat";
+        font-size: 1.5625rem;
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
+}
+
+.contenedor-guia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.125rem;
+    .guia-de-talles{
+        @include sombra(.625rem,.625rem, .5rem, grey);
+        width: 31.25rem;
+        height: 31.25rem;
+        border: 1px solid black;
+        thead{
+            background-color: rgba(161, 159, 159, 0.884);
+            tr{
+                th{
+                    padding: 1rem;
+                }
+            }
+        }
+        tbody{
+            tr{
+                td{
+                    padding: 10px;
+                }
+            }
+        }
+
+    }
+}

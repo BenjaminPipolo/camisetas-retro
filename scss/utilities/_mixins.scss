@@ -1,0 +1,3 @@
+@mixin sombra($desplazamiento-x, $desplazamiento-y, $radio, $color) {
+    box-shadow: $desplazamiento-x $desplazamiento-y $radio $color;
+}

@@ -1,0 +1,41 @@
+@media (max-width:480px){
+    .informacion{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro-quienes{
+        h2{
+            font-size: 1.5625rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+
+    .intro-guiadetalles{
+        h2{
+            font-size: 1.5625rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+
+    .intro-contacto{
+        h2{
+            font-size: 1.5625rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        .contactanos{
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.main-contacto{
+    background-image: linear-gradient(#D2E9E9, #F8F6F4) ;
+}
+
+.intro-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    h2{
+        font-family: "montserrat";
+        font-size: 3.125rem;
+    }
+    p{
+        font-family: "montserrat";
+        font-size: 1.5625rem;
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
+}
+
+.formulario{
+    padding-bottom: 3.125rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+}

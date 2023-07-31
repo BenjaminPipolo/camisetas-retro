@@ -1,0 +1,618 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "amaranth";
+  src: url(../fonts/Amaranth-Regular.ttf);
+}
+@font-face {
+  font-family: "librebodoni";
+  src: url(../fonts/LibreBodoni-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "montserrat";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+.navbar {
+  background-color: #C4DFDF;
+  font-family: amaranth;
+}
+
+footer {
+  background-color: #C4DFDF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+}
+footer a .logo-footer {
+  height: 3.125rem;
+  width: 3.4375rem;
+}
+footer .contactanos {
+  display: flex;
+  flex-direction: column;
+  font-family: "montserrat";
+}
+footer .contactanos div {
+  display: flex;
+  flex-direction: row;
+}
+footer .contactanos div img {
+  height: 1rem;
+  width: 1rem;
+}
+footer .redes-sociales {
+  display: flex;
+  flex-direction: column;
+  font-family: "montserrat";
+  padding-right: 1.875rem;
+}
+
+#carouselExample img {
+  object-fit: cover;
+  height: 25rem;
+}
+
+.main-index {
+  background-image: linear-gradient(#D2E9E9, #F8F6F4);
+}
+
+h2 {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  font-size: 4.6875rem;
+  font-family: "montserrat";
+  text-align: center;
+}
+
+.mas-vendidas {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: 31.25rem;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.barcelona {
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}
+.barcelona img {
+  width: 21.875rem;
+  height: 21.875rem;
+}
+.barcelona p {
+  font-family: "montserrat";
+  font-weight: bold;
+}
+
+.barcelona:hover .hover-image {
+  opacity: 1;
+}
+
+.fiorentina {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}
+.fiorentina img {
+  width: 21.875rem;
+  height: 21.875rem;
+}
+.fiorentina p {
+  font-family: "montserrat";
+  font-weight: bold;
+}
+
+.fiorentina:hover .hover-image {
+  opacity: 1;
+}
+
+.boca {
+  grid-column: 3/4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}
+.boca img {
+  width: 21.875rem;
+  height: 21.875rem;
+}
+.boca p {
+  font-family: "montserrat";
+  font-weight: bold;
+}
+
+.boca:hover .hover-image {
+  opacity: 1;
+}
+
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 21.875rem;
+  height: 21.875rem;
+}
+
+.contenedor-boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #D2E9E9;
+  text-decoration: none;
+  border-radius: 0.3125rem;
+}
+.boton:hover {
+  background-color: #C4DFDF;
+}
+
+.informacion {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: 31.25rem;
+  gap: 3.125rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.informacion .envios {
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "montserrat";
+}
+.informacion .pagos {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "montserrat";
+}
+.informacion .seguridad {
+  grid-column: 3/4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "montserrat";
+}
+
+.main-productos {
+  background-image: linear-gradient(#D2E9E9, #F8F6F4);
+}
+
+.presentacion-productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.presentacion-productos h2 {
+  font-family: "montserrat";
+  font-size: 3.125rem;
+}
+.presentacion-productos p {
+  font-family: "montserrat";
+  font-size: 1.5625rem;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: 31.25rem, 31.25rem, 31.25rem;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.productos .diego-uno {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}
+.productos .diego-uno:hover .hover-image-productos {
+  opacity: 1;
+}
+.productos .diego-uno img {
+  width: 21.875rem;
+  height: 21.875rem;
+}
+.productos .diego-uno p {
+  font-family: "montserrat";
+  font-weight: bold;
+}
+.productos .diego-dos {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}
+.productos .diego-dos:hover .hover-image-productos {
+  opacity: 1;
+}
+.productos .diego-dos img {
+  width: 21.875rem;
+  height: 21.875rem;
+}
+.productos .diego-dos p {
+  font-family: "montserrat";
+  font-weight: bold;
+}
+.productos .river {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}
+.productos .river:hover .hover-image-productos {
+  opacity: 1;
+}
+.productos .river img {
+  width: 21.875rem;
+  height: 21.875rem;
+}
+.productos .river p {
+  font-family: "montserrat";
+  font-weight: bold;
+}
+.productos .roman {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}
+.productos .roman:hover .hover-image-productos {
+  opacity: 1;
+}
+.productos .roman img {
+  width: 21.875rem;
+  height: 21.875rem;
+}
+.productos .roman p {
+  font-family: "montserrat";
+  font-weight: bold;
+}
+.productos .lepra {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}
+.productos .lepra:hover .hover-image-productos {
+  opacity: 1;
+}
+.productos .lepra img {
+  width: 21.875rem;
+  height: 21.875rem;
+}
+.productos .lepra p {
+  font-family: "montserrat";
+  font-weight: bold;
+}
+.productos .messi {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}
+.productos .messi:hover .hover-image-productos {
+  opacity: 1;
+}
+.productos .messi img {
+  width: 21.875rem;
+  height: 21.875rem;
+}
+.productos .messi p {
+  font-family: "montserrat";
+  font-weight: bold;
+}
+.productos .fiorentina-producto {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}
+.productos .fiorentina-producto:hover .hover-image-productos {
+  opacity: 1;
+}
+.productos .fiorentina-producto img {
+  width: 21.875rem;
+  height: 21.875rem;
+}
+.productos .fiorentina-producto p {
+  font-family: "montserrat";
+  font-weight: bold;
+}
+.productos .barcelona-producto {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}
+.productos .barcelona-producto:hover .hover-image-productos {
+  opacity: 1;
+}
+.productos .barcelona-producto img {
+  width: 21.875rem;
+  height: 21.875rem;
+}
+.productos .barcelona-producto p {
+  font-family: "montserrat";
+  font-weight: bold;
+}
+.productos .boca-producto {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}
+.productos .boca-producto:hover .hover-image-productos {
+  opacity: 1;
+}
+.productos .boca-producto img {
+  width: 21.875rem;
+  height: 21.875rem;
+}
+.productos .boca-producto p {
+  font-family: "montserrat";
+  font-weight: bold;
+}
+
+.hover-image-productos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 21.875rem;
+  height: 21.875rem;
+}
+
+.main-contacto {
+  background-image: linear-gradient(#D2E9E9, #F8F6F4);
+}
+
+.intro-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.intro-contacto h2 {
+  font-family: "montserrat";
+  font-size: 3.125rem;
+}
+.intro-contacto p {
+  font-family: "montserrat";
+  font-size: 1.5625rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.formulario {
+  padding-bottom: 3.125rem;
+  padding-left: 3.125rem;
+  padding-right: 3.125rem;
+}
+
+.main-guiadetalles {
+  background-image: linear-gradient(#D2E9E9, #F8F6F4);
+}
+
+.intro-guiadetalles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.intro-guiadetalles h2 {
+  font-family: "montserrat";
+  font-size: 3.125rem;
+}
+.intro-guiadetalles p {
+  font-family: "montserrat";
+  font-size: 1.5625rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.contenedor-guia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.125rem;
+}
+.contenedor-guia .guia-de-talles {
+  box-shadow: 0.625rem 0.625rem 0.5rem grey;
+  width: 31.25rem;
+  height: 31.25rem;
+  border: 1px solid black;
+}
+.contenedor-guia .guia-de-talles thead {
+  background-color: rgba(161, 159, 159, 0.884);
+}
+.contenedor-guia .guia-de-talles thead tr th {
+  padding: 1rem;
+}
+.contenedor-guia .guia-de-talles tbody tr td {
+  padding: 10px;
+}
+
+.main-quienes {
+  background-image: linear-gradient(#D2E9E9, #F8F6F4);
+}
+
+.intro-quienes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.intro-quienes h2 {
+  font-family: "montserrat";
+  font-size: 3.125rem;
+}
+.intro-quienes p {
+  font-family: "montserrat";
+  font-size: 1.5625rem;
+  text-align: center;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .informacion {
+    display: flex;
+    flex-direction: column;
+  }
+  .intro-quienes h2 {
+    font-size: 1.875rem;
+  }
+  .intro-quienes p {
+    font-size: 1.125rem;
+  }
+  .intro-guiadetalles h2 {
+    font-size: 1.875rem;
+  }
+  .intro-guiadetalles p {
+    font-size: 1.125rem;
+  }
+  .intro-contacto h2 {
+    font-size: 1.875rem;
+  }
+  .intro-contacto p {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 480px) {
+  .informacion {
+    display: flex;
+    flex-direction: column;
+  }
+  .intro-quienes h2 {
+    font-size: 1.5625rem;
+  }
+  .intro-quienes p {
+    font-size: 1rem;
+  }
+  .intro-guiadetalles h2 {
+    font-size: 1.5625rem;
+  }
+  .intro-guiadetalles p {
+    font-size: 1rem;
+  }
+  .intro-contacto h2 {
+    font-size: 1.5625rem;
+  }
+  .intro-contacto p {
+    font-size: 1rem;
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .contactanos {
+    align-items: center;
+  }
+}
+@media (max-width: 320px) {
+  .informacion {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .intro-quienes h2 {
+    font-size: 1.5625rem;
+  }
+  .intro-quienes p {
+    font-size: 1rem;
+  }
+  .intro-guiadetalles h2 {
+    font-size: 1.5625rem;
+  }
+  .intro-guiadetalles p {
+    font-size: 1rem;
+  }
+  .intro-contacto h2 {
+    font-size: 1.5625rem;
+  }
+  .intro-contacto p {
+    font-size: 1rem;
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .contactanos {
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

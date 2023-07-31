@@ -1,0 +1,33 @@
+@media (max-width:768px){
+    .informacion{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro-quienes{
+        h2{
+            font-size: 1.875rem;
+        }
+        p{
+            font-size: 1.125rem;
+        }
+    }
+
+    .intro-guiadetalles{
+        h2{
+            font-size: 1.875rem;
+        }
+        p{
+            font-size: 1.125rem;
+        }
+    }
+
+    .intro-contacto{
+        h2{
+            font-size: 1.875rem;
+        }
+        p{
+            font-size: 1.125rem;
+        }
+    }
+}

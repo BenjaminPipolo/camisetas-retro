@@ -1,0 +1,32 @@
+footer{
+    background-color: $color-primario;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.25rem;
+    a{
+        .logo-footer{
+            height: 3.125rem;
+            width: 3.4375rem;
+        }
+    }
+    .contactanos{
+        display: flex;
+        flex-direction: column;
+        font-family: "montserrat";
+        div{
+            display: flex;
+            flex-direction: row;
+            img{
+                height: 1rem;
+                width: 1rem;
+            }
+        }
+    }
+    .redes-sociales{
+        display: flex;
+        flex-direction: column;
+        font-family: "montserrat";
+        padding-right: 1.875rem;
+    }
+}
