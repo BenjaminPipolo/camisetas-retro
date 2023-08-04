@@ -660,5 +660,26 @@ h2 {
     align-items: center;
   }
 }
+.error-404 h1 {
+  font-size: 3.125rem;
+  padding: 2.5rem;
+  text-align: center;
+}
+.error-404 p {
+  font-size: 1.875rem;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.robot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.robot img {
+  height: 15.625rem;
+  width: 15.625rem;
+}
 
 /*# sourceMappingURL=styles.css.map */
