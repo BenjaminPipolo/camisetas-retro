@@ -18,3 +18,10 @@
     background-color: $color-primario;
     font-family: amaranth;
 }
+
+.nav-link{
+    transition: transform 0.3s ease;
+    &:hover{
+        transform: scale(1.1);  
+    }
+}

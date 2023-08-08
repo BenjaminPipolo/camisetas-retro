@@ -37,6 +37,13 @@
   font-family: amaranth;
 }
 
+.nav-link {
+  transition: transform 0.3s ease;
+}
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
 footer {
   background-color: #C4DFDF;
   display: flex;
@@ -520,6 +527,13 @@ h2 {
 }
 .contenedor-guia .guia-de-talles tbody tr td {
   padding: 10px;
+}
+
+.referencia-talles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5625rem;
 }
 
 .main-quienes {
