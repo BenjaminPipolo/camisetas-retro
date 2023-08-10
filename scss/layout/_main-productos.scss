@@ -24,7 +24,7 @@
 
 .productos{
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr;
     grid-template-rows: 31.25rem, 31.25rem, 31.25rem, 31.25rem, 31.25rem;
     gap: 1rem;
     justify-content: center;
@@ -71,8 +71,8 @@
         }
     }
     .river{
-        grid-column: 1/2;
-        grid-row: 2/3;
+        grid-column: 3/4;
+        grid-row: 1/2;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -91,7 +91,7 @@
         }
     }
     .roman{
-        grid-column: 2/3;
+        grid-column: 1/2;
         grid-row: 2/3;
         display: flex;
         justify-content: center;
@@ -111,8 +111,8 @@
         }
     }
     .lepra{
-        grid-column: 1/2;
-        grid-row: 3/4;
+        grid-column: 2/3;
+        grid-row: 2/3;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -131,8 +131,8 @@
         }
     }
     .messi{
-        grid-column: 2/3;
-        grid-row: 3/4;
+        grid-column: 3/4;
+        grid-row: 2/3;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -152,7 +152,7 @@
     }
     .fiorentina-producto{
         grid-column: 1/2;
-        grid-row: 4/5;
+        grid-row: 3/4;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -172,7 +172,7 @@
     }
     .barcelona-producto{
         grid-column: 2/3;
-        grid-row: 4/5;
+        grid-row: 3/4;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -191,7 +191,127 @@
         }
     }
     .boca-producto{
+        grid-column: 3/4;
+        grid-row: 3/4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: inline-block;
+        &:hover .hover-image-productos {
+            opacity: 1;
+        }
+        img{
+            width: 21.875rem;
+            height: 21.875rem;
+        }
+        p{
+            font-family: "montserrat";
+            font-weight: bold;
+        }
+    }
+    .fiorentina-alternativa{
         grid-column: 1/2;
+        grid-row: 4/5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: inline-block;
+        &:hover .hover-image-productos {
+            opacity: 1;
+        }
+        img{
+            width: 21.875rem;
+            height: 21.875rem;
+        }
+        p{
+            font-family: "montserrat";
+            font-weight: bold;
+        }
+    }
+    .villareal{
+        grid-column: 2/3;
+        grid-row: 4/5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: inline-block;
+        &:hover .hover-image-productos {
+            opacity: 1;
+        }
+        img{
+            width: 21.875rem;
+            height: 21.875rem;
+        }
+        p{
+            font-family: "montserrat";
+            font-weight: bold;
+        }
+    }
+    .alemania{
+        grid-column: 3/4;
+        grid-row: 4/5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: inline-block;
+        &:hover .hover-image-productos {
+            opacity: 1;
+        }
+        img{
+            width: 21.875rem;
+            height: 21.875rem;
+        }
+        p{
+            font-family: "montserrat";
+            font-weight: bold;
+        }
+    }
+    .independiente{
+        grid-column: 1/2;
+        grid-row: 5/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: inline-block;
+        &:hover .hover-image-productos {
+            opacity: 1;
+        }
+        img{
+            width: 21.875rem;
+            height: 21.875rem;
+        }
+        p{
+            font-family: "montserrat";
+            font-weight: bold;
+        }
+    }
+    .boca-roman{
+        grid-column: 2/3;
+        grid-row: 5/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: inline-block;
+        &:hover .hover-image-productos {
+            opacity: 1;
+        }
+        img{
+            width: 21.875rem;
+            height: 21.875rem;
+        }
+        p{
+            font-family: "montserrat";
+            font-weight: bold;
+        }
+    }
+    .napoli{
+        grid-column: 3/4;
         grid-row: 5/6;
         display: flex;
         justify-content: center;

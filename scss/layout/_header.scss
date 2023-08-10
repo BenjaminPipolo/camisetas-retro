@@ -14,6 +14,24 @@
     }
 }
 
+.interfaz-usuario{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: .625rem;
+    padding-right: 1.25rem;
+    background-color: $color-primario;
+    a{
+        text-decoration: none;
+        color: black;
+        transition: transform 0.3s ease;
+        font-family: amaranth;
+        &:hover{
+            transform: scale(1.1);  
+        }
+    }
+}   
+
 .navbar{
     background-color: $color-primario;
     font-family: amaranth;
