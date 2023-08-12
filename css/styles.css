@@ -86,7 +86,8 @@ footer .contactanos h6 {
 }
 footer .contactanos .datos-contacto {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 0.5rem;
 }
 footer .contactanos .datos-contacto div {
@@ -119,6 +120,33 @@ footer .redes-sociales .links-redes {
 
 .main-index {
   background-image: linear-gradient(#D2E9E9, #F8F6F4);
+}
+
+.bienvenida h2 {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  font-size: 4.6875rem;
+  font-family: "montserrat";
+  text-align: center;
+  position: relative;
+  animation: slideIn 1s ease-in-out;
+}
+@keyframes slideIn {
+  0% {
+    left: -100%;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+.bienvenida p {
+  font-family: "montserrat";
+  font-size: 1.5625rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  text-align: center;
 }
 
 h2 {
@@ -673,6 +701,8 @@ h2 {
   justify-content: center;
   align-items: center;
   margin-bottom: 3.125rem;
+  margin-left: 1.5625rem;
+  margin-right: 1.5625rem;
 }
 .contenedor-guia .guia-de-talles {
   box-shadow: 0.625rem 0.625rem 0.5rem grey;
@@ -745,17 +775,78 @@ h2 {
   margin-right: 1.25rem;
 }
 
-@media (max-width: 850px) {
-  footer .contactanos .datos-contacto {
+@media (max-width: 1090px) {
+  .mas-vendidas {
     display: flex;
     flex-direction: column;
-    align-items: center;
+  }
+  .productos {
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 31.25rem, 31.25rem, 31.25rem, 31.25rem, 31.25rem, 31.25rem, 31.25rem, 31.25rem;
+  }
+  .productos .river {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .productos .roman {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .productos .lepra {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .productos .messi {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .productos .fiorentina-producto {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .productos .barcelona-producto {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+  .productos .boca-producto {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  .productos .fiorentina-alternativa {
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+  .productos .villareal {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+  .productos .alemania {
+    grid-column: 2/3;
+    grid-row: 6/7;
+  }
+  .productos .independiente {
+    grid-column: 1/2;
+    grid-row: 7/8;
+  }
+  .productos .boca-roman {
+    grid-column: 2/3;
+    grid-row: 7/8;
+  }
+  .productos .napoli {
+    grid-column: 1/2;
+    grid-row: 8/9;
   }
 }
 @media (max-width: 768px) {
   .informacion {
     display: flex;
     flex-direction: column;
+  }
+  .bienvenida h2 {
+    font-size: 1.875rem;
+  }
+  .bienvenida p {
+    font-size: 1.125rem;
   }
   .intro-quienes h2 {
     font-size: 1.875rem;
@@ -817,11 +908,35 @@ h2 {
     width: 15.625rem;
     height: 15.625rem;
   }
-  .barcelona img {
+  .productos .barcelona img {
     width: 15.625rem;
     height: 15.625rem;
   }
-  .boca img {
+  .productos .boca img {
+    width: 15.625rem;
+    height: 15.625rem;
+  }
+  .productos .fiorentina-alternativa img {
+    width: 15.625rem;
+    height: 15.625rem;
+  }
+  .productos .villareal img {
+    width: 15.625rem;
+    height: 15.625rem;
+  }
+  .productos .alemania img {
+    width: 15.625rem;
+    height: 15.625rem;
+  }
+  .productos .independiente img {
+    width: 15.625rem;
+    height: 15.625rem;
+  }
+  .productos .boca-roman img {
+    width: 15.625rem;
+    height: 15.625rem;
+  }
+  .productos .napoli img {
     width: 15.625rem;
     height: 15.625rem;
   }
@@ -843,6 +958,24 @@ h2 {
   .informacion {
     display: flex;
     flex-direction: column;
+  }
+  .bienvenida h2 {
+    font-size: 1.5625rem;
+  }
+  .bienvenida p {
+    font-size: 1rem;
+  }
+  .mas-vendidas .barcelona img {
+    width: 15.625rem;
+    height: 15.625rem;
+  }
+  .mas-vendidas .boca img {
+    width: 15.625rem;
+    height: 15.625rem;
+  }
+  .mas-vendidas .fiorentina img {
+    width: 15.625rem;
+    height: 15.625rem;
   }
   .intro-quienes h2 {
     font-size: 1.5625rem;

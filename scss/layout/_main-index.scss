@@ -7,6 +7,29 @@
     background-image: linear-gradient(#D2E9E9, #F8F6F4) ;
 }
 
+.bienvenida{
+    h2{
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+        font-size: 4.6875rem;
+        font-family: "montserrat";
+        text-align: center;
+        position: relative;
+        animation: slideIn 1s ease-in-out;
+    }
+    @keyframes slideIn {
+        0% { left: -100%; opacity: 0; }
+        100% { left: 0; opacity: 1; }
+    }
+    p{
+        font-family: "montserrat";
+        font-size: 1.5625rem;
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        text-align: center;
+    }
+}
+
 h2{
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;

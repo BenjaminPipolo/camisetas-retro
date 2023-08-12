@@ -4,6 +4,36 @@
         flex-direction: column;
     }
 
+    .bienvenida{
+        h2{
+            font-size: 1.5625rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+
+    .mas-vendidas{
+        .barcelona{
+            img{
+                width: 15.625rem;
+                height: 15.625rem;
+            }
+        }
+        .boca{
+            img{
+                width: 15.625rem;
+                height: 15.625rem;
+            }
+        }
+        .fiorentina{
+            img{
+                width: 15.625rem;
+                height: 15.625rem;
+            }
+        }
+    }
+
     .intro-quienes{
         h2{
             font-size: 1.5625rem;

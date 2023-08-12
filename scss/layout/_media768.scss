@@ -4,6 +4,15 @@
         flex-direction: column;
     }
 
+    .bienvenida{
+        h2{
+            font-size: 1.875rem;
+        }
+        p{
+            font-size: 1.125rem;
+        }
+    }
+
     .intro-quienes{
         h2{
             font-size: 1.875rem;
@@ -95,17 +104,53 @@
                 height: 15.625rem;
             }
         }
-    }
-    .barcelona{
-        img{
-            width: 15.625rem;
-            height: 15.625rem;
+        .barcelona{
+            img{
+                width: 15.625rem;
+                height: 15.625rem;
+            }
         }
-    }
-    .boca{
-        img{
-            width: 15.625rem;
-            height: 15.625rem;
+        .boca{
+            img{
+                width: 15.625rem;
+                height: 15.625rem;
+            }
+        }
+        .fiorentina-alternativa{
+            img{
+                width: 15.625rem;
+                height: 15.625rem;
+            }
+        }
+        .villareal{
+            img{
+                width: 15.625rem;
+                height: 15.625rem;
+            }
+        }
+        .alemania{
+            img{
+                width: 15.625rem;
+                height: 15.625rem;
+            }
+        }
+        .independiente{
+            img{
+                width: 15.625rem;
+                height: 15.625rem;
+            }
+        }
+        .boca-roman{
+            img{
+                width: 15.625rem;
+                height: 15.625rem;
+            }
+        }
+        .napoli{
+            img{
+                width: 15.625rem;
+                height: 15.625rem;
+            }
         }
     }
     h2{

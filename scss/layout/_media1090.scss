@@ -1,0 +1,62 @@
+@media (max-width:1090px){
+    .mas-vendidas{
+        display: flex;
+        flex-direction: column;
+    }
+    .productos{
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 31.25rem, 31.25rem, 31.25rem, 31.25rem, 31.25rem, 31.25rem, 31.25rem, 31.25rem;
+        .river{
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .roman{
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        .lepra{
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        .messi{
+            grid-column: 2/3;
+            grid-row: 3/4;
+        }
+        .fiorentina-producto{
+            grid-column: 1/2;
+            grid-row: 4/5;
+        }
+        .barcelona-producto{
+            grid-column: 2/3;
+            grid-row: 4/5;
+        }
+        .boca-producto{
+            grid-column: 1/2;
+            grid-row: 5/6;
+        }
+        .fiorentina-alternativa{
+            grid-column: 2/3;
+            grid-row: 5/6;
+        }
+        .villareal{
+            grid-column: 1/2;
+            grid-row: 6/7;
+        }
+        .alemania{
+            grid-column: 2/3;
+            grid-row: 6/7;
+        }
+        .independiente{
+            grid-column: 1/2;
+            grid-row: 7/8;
+        }
+        .boca-roman{
+            grid-column: 2/3;
+            grid-row: 7/8;
+        }
+        .napoli{
+            grid-column: 1/2;
+            grid-row: 8/9;
+        }
+    }
+}
